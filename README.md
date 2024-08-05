@@ -1,84 +1,68 @@
-# ai-powered-mentor-matching-system-for-startups-
-The system is meticulously designed to enhance the precision and relevance of mentor assignments, thereby providing more effective support to entrepreneurs.
+# Mentor-Mentee Matching System for Startup Founders
 
+## Overview
+This project, conducted during my internship at the Centre for Entrepreneurship Development (CED) at Anna University from June 24, 2024, to July 23, 2024, aims to enhance the mentor-mentee matching process for startup founders. By leveraging advanced machine learning and natural language processing techniques, the system improves the accuracy and relevance of mentor assignments, thereby better supporting entrepreneurs.
 
-Components
+## Components
 The project is structured into several critical components:
 
-1. Mentor-Mentee Matching System
+1. **Mentor-Mentee Matching System**
    - Define Objectives
    - Identify Key Stakeholders
    - Outline Matching Criteria
    - Design Matching Framework
 
-2. Domain Identification from Startup Ideas
+2. **Domain Identification from Startup Ideas**
    - Collect Startup Ideas
    - Extract Keywords
    - Analyze Domain Relevance
    - Classify Ideas by Domain
 
-3. Algorithm Development and Fine-Tuning
+3. **Algorithm Development and Fine-Tuning**
    - Choose Machine Learning Models
    - Develop Initial Algorithm
    - Train Algorithm on Sample Data
    - Evaluate Algorithm Performance
    - Fine-Tune Parameters
 
-4. Data Collection and Preprocessing
+4. **Data Collection and Preprocessing**
    - Gather Data from Startups
    - Clean and Normalize Data
    - Annotate Data for Training
    - Split Data into Training and Test Sets
 
-5. System Evaluation and Testing
+5. **System Evaluation and Testing**
    - Conduct Initial System Testing
    - Collect Feedback from Users
    - Identify Areas for Improvement
    - Implement Enhancements
    - Perform Final Testing and Validation
 
-Installation
+## Installation
 1. Clone the repository:
-    
+    ```sh
     git clone https://github.com/yourusername/mentor-mentee-matching-system.git
-    
+    ```
 2. Navigate to the project directory:
-    
+    ```sh
     cd mentor-mentee-matching-system
-    
+    ```
 3. Install the required dependencies:
-    
+    ```sh
     pip install -r requirements.txt
-    
+    ```
 
-Usage
-1. Run the data collection and preprocessing script:
-    
-    python data_preprocessing.py
-    
-2. Train the matching algorithm:
-  
-    python train_algorithm.py
-    
-3. Evaluate and test the system:
-  
-    python evaluate_system.py
-  
+## Usage
+1. Ensure the mentor dataset is available at `path/to/your/mentor_dataset.csv`.
+2. Run the main script:
+    ```sh
+    python main.py
+    ```
 
-Contributing
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
+## requirements.txt
 
-License
-This project is licensed under the MIT License. 
-
-
-
-requirements.txt
-
-
-numpy
+```txt
 pandas
 scikit-learn
-nltk
-
-
+transformers
+joblib
